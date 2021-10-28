@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>List Movie Terbaru</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link
+    rel = "icon"
+    type = "image/png"
+    href = "./favicon.png"
+    sizes= "16x16"
+/>
+<link rel = "stylesheet" href = "./style.css" />
+</head>
+<body>
+
+    <div class = "header">
+        <h1>List Film Terbaru 2021</h1>
+    </div>
+
+    <div class = "article">
+        <p><b><u>Film-film terbaru</u></b></p>
+
+        <table>
+            <tr>
+                <td style = "width: 5%;">1</td>
+                <td style = "width: 10%;"><img src="./poster/notime.jpg" alt="Poster No Time to Die" width="50" height="80"></td>
+                <td>No Time to Die</td>
+                <td style = "width: 20%;"><center><button id="button1" class = "button">Informasi</button></center></td>
+            </tr>
+
+            <tr>
+                <td style = "width: 5%;">2</td>
+                <td style = "width: 10%;"><img src="./poster/shangchi.jpg" alt="Poster Shang-Chi" width="50" height="80"></td>
+                <td>Shang-Chi and the Legend of the Ten Rings</td>
+                <td style = "width: 20%;"><center><button id = "button2" class = "button">Informasi</button></center></td>
+            </tr>
+
+            <tr>
+                <td style = "width: 5%;">3</td>
+                <td style = "width: 10%;"><img src="./poster/blkwidow.jpg" alt="Poster Black Widow" width="50" height="80"></td>
+                <td>Black Widow</td>
+                <td style = "width: 20%;"><center><button id = "button3" class = "button">Informasi</button></center></td>
+            </tr>
+        </table>
+        <!-- <br> -->
+
+        <h4>Note: Best Viewed on Personal Computer Screen</h4>
+    </div>
+
+    <!-- Informasi Film -->
+    <div id = "modal1" class = "modal">
+        <div class = "modal-content">
+            <span class = "close" id = "span1">&times;</span>
+            
+            <div class = "modal-poster">
+                <img src="poster/notime.jpg" alt="Poster No Time" width="160" height="250">
+            </div>
+
+            <div class = "modal-title">
+                <h2>No Time to Die</h2>
+            </div>
+
+            <h3>Sinopsis</h3>
+            <p>Sejenak menikmati kehidupannya setelah pensiun, Bond harus kembali beraksi demi menyelamatkan seorang teman.</p>
+            <p>Kali ini, Bond harus menelusuri jejak seorang penjahat misterius yang telah dipersenjatai dengan teknologi baru berbahaya.</p>
+            <p><b>IMDb Rating: 7.6/10</b></p>
+        </div>
+    </div>
+
+    <div id = "modal2" class = "modal">
+        <div class = "modal-content">
+            <span class = "close" id = "span2">&times;</span>
+            
+            <div class = "modal-poster">
+                <img src="poster/shangchi.jpg" alt="Poster No Time" width="160" height="250">
+            </div>
+
+            <div class = "modal-title">
+                <h2>Shang-Chi and the Legend of the Ten Rings</h2>
+            </div>
+
+            <h3>Sinopsis</h3>
+            <p>Shang-Chi (Simu Liu) harus menghadapi masa lalunya sebelum ia memilih untuk meninggalkan dan bergabung ke dalam sebuah organisasi bernama Ten Rings.</p>
+            <p><b>IMDb Rating: 7.9/10</b></p>
+        </div>
+    </div>
+
+    <div id = "modal3" class = "modal">
+        <div class = "modal-content">
+            <span class = "close" id = "span3">&times;</span>
+            
+            <div class = "modal-poster">
+                <img src="poster/blkwidow.jpg" alt="Poster Black Widow" width="160" height="250">
+            </div>
+
+            <div class = "modal-title">
+                <h2>Black Widow</h2>
+            </div>
+
+            <h3>Sinopsis</h3>
+            <p>
+                Natasha Romanoff (Scarlett Johansson) kembali ke kampung halamannya di Rusia untuk menyelesaikan misi berbahaya. Disana, Natasha bertemu dengan keluarga dari masa lalunya untuk melawan seorang musuh berbahaya bernama Taskmaster.
+            </p>
+            <p><b>IMDb Rating: 6.8/10</b></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class = "footer">
+        <p>
+            Created by Daven Darmawan Sendjaya for Google Developer Students Clubs
+        </p>
+    </div>
+
+    <script src= "./script.js"></script>
+
+</body>
+</html>
